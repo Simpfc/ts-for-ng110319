@@ -18,7 +18,7 @@ function sendUpdates(emailAddr) {
         console.log(`Shipping to ${addr} via ${deliveryMethod() | "standard"} delivery`);
 
         if (shipWeight() > 100) {
-            console.log("WARNING: Oversize package");
+            console.log("");
         }
     }
     // If it's an array, loop over it
